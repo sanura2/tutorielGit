@@ -1,0 +1,3 @@
+﻿SAP、および本書で言及されるその他 SAP の製品およびサービス、ならびにそれらのロゴは、ドイツおよびその他諸国における SAP SE の商標または登録商標です。
+商標に関する情報および表示の詳細については、http://www.sap.com/corporate-en/legal/copyright/index.epx#trademark
+をご覧ください。

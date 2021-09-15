@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_25" class="java.beans.XMLDecoder">
+ <object class="com.sap.webi.client.toolkit.preferences.beans.BeanObjectWrapper">
+  <void property="className">
+   <string>java.util.HashMap</string>
+  </void>
+  <void property="object">
+   <object class="java.util.HashMap">
+    <void method="put">
+     <string>startuptime</string>
+     <long>10583</long>
+    </void>
+    <void method="put">
+     <string>dsorder</string>
+     <string>QT$</string>
+    </void>
+    <void method="put">
+     <string>qplastbounds</string>
+     <object class="java.awt.Rectangle" id="Rectangle0">
+      <void class="java.awt.Rectangle" method="getField">
+       <string>width</string>
+       <void method="set">
+        <object idref="Rectangle0"/>
+        <int>952</int>
+       </void>
+      </void>
+      <void class="java.awt.Rectangle" method="getField">
+       <string>height</string>
+       <void method="set">
+        <object idref="Rectangle0"/>
+        <int>700</int>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void method="put">
+     <string>framelastbounds</string>
+     <object class="java.awt.Rectangle" id="Rectangle1">
+      <void class="java.awt.Rectangle" method="getField">
+       <string>x</string>
+       <void method="set">
+        <object idref="Rectangle1"/>
+        <int>134</int>
+       </void>
+      </void>
+      <void class="java.awt.Rectangle" method="getField">
+       <string>y</string>
+       <void method="set">
+        <object idref="Rectangle1"/>
+        <int>120</int>
+       </void>
+      </void>
+      <void class="java.awt.Rectangle" method="getField">
+       <string>width</string>
+       <void method="set">
+        <object idref="Rectangle1"/>
+        <int>1190</int>
+       </void>
+      </void>
+      <void class="java.awt.Rectangle" method="getField">
+       <string>height</string>
+       <void method="set">
+        <object idref="Rectangle1"/>
+        <int>404</int>
+       </void>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="version">
+   <string>1.0</string>
+  </void>
+ </object>
+</java>

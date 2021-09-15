@@ -1,0 +1,184 @@
+/* Global Styles */
+
+body {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-image:url(../../icons/Welcome/bg.png);
+}
+
+table td {
+	font:13px Arial, Helvetica, sans-serif;
+	color:#4A4A4A;
+}
+
+h1{
+	padding-top: 15px;
+	font-size: 29px;
+	font-weight: bold;
+	color: #FFFFFF;
+}	
+
+a.unlinked:hover, a.unlinked:focus{
+	font-size: 15px;
+    color: #3778c7;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+img {
+	border-style: solid;
+	border-color: #7294ab;
+	border-width: 0px;
+	border-radius: 4px;
+}
+
+/* ID Styles */
+
+
+/* Class Styles */
+.check {
+	color: #e8e8e8;
+	font-size: 12px;
+}
+
+.mainRow {
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	vertical-align:top;
+}
+
+.footer {
+	color: #FFFFFF;
+	text-align:center;
+	padding: 8px;
+}
+
+.sessionTitle{
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 2.5;
+	padding-top: 15px;
+	padding-bottom: 6px;
+	margin: 0px;
+}
+
+.sessionTitle td {
+	font-size: 21px;
+	font-weight: bold;
+	color: #000000;
+	vertical-align:middle;
+}
+
+.sessionTitle img {
+	margin-top: 5px;
+	margin-left: 3px;
+	margin-right: 0px;
+}
+
+.session{
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	vertical-align:top;
+}
+
+
+.title img, .sessionTitle img {
+	border-width: 0px;
+	border-style: none;
+}
+
+#shortcut, #shortcut a:link, #shortcut a:visited {
+	font-size: 15px;
+	color: #0076c9;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#shortcut a:hover, #shortcut a:focus {
+	text-decoration: underline;
+	padding: 0px;
+	color: #47a2e0;
+}
+
+#content {
+	padding-top: 10px;
+	vertical-align:top;
+	margin: 0px;
+}
+
+#list {
+	font-size: 12px;
+	list-style-type: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+#list a:link,a:visited{
+	font-size: 12px;
+	color: #237099;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 0px;
+}
+
+#list a:hover,a:focus {
+	text-decoration: underline;
+	color: #6597c9;
+}
+
+#list ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#list ul li {
+	padding-top: 3px;
+	padding-bottom: 2px;
+	background-repeat: no-repeat;
+	background-position: 0px 5px; 
+	padding-left: 25px; 
+}
+
+#list td{
+	padding-bottom: 3px;
+}
+
+#rcnx {
+	background-image: url(../../icons/Welcome/RelationalConnection.png);    
+}
+
+#ocnx {
+	background-image: url(../../icons/Welcome/OlapConnection.png);    
+}
+
+#rcns {
+	background-image: url(../../icons/Welcome/SecuredRelationalConnection.png);    
+}
+
+#ocns {
+	background-image: url(../../icons/Welcome/SecuredOlapConnection.png); 
+}
+
+#dfx {
+	background-image: url(../../icons/Welcome/DataFoundation.png);
+}
+
+#blx {
+	background-image: url(../../icons/Welcome/BusinessLayer.png);
+}
+
+#unknown {
+	background-image: url(../../icons/Welcome/File.png);
+}
+
+#cheatsheet {
+	background-image: url(../../icons/Welcome/Cheatsheet.png);
+}

@@ -1,0 +1,23 @@
+CADENZA_CharDelimiter="
+CADENZA_Charset=UTF-8
+CADENZA_ColumnSeparator=,
+CADENZA_MeasurementUnit=pixels
+CADENZA_SelectedView=1
+CADENZA_StructureGridSpacing=375
+CADENZA_StructureShowGrid=false
+CADENZA_StructureSnapToGrid=false
+CADENZA_tdcAutoMode=true
+CADENZA_timeOutCheck=true
+DOCUMENT_WICreateTechno=J
+DOCUMENT_WIDrillBar=Y
+DOCUMENT_WIPromptDrillOutScope=N
+DOCUMENT_WISaveAsXLSOptimized=Y
+DOCUMENT_WIStartNewDrill=existing
+DOCUMENT_WISyncDrillBlocks=N
+DOCUMENT_WIUCLUsage=true
+DOCUMENT_WIUserContentLocale=
+DOCUMENT_WIViewTechno=H
+INTERACTIVE_EDITING_VIEWER_USR_PROFILE={CDZ_VIEW_showStatus=1, CDZ_VIEW_infoAutosaveCheck=0, CDZ_VIEW_leftPane=1, CDZ_VIEW_defaultQueryFilter=constant, CDZ_VIEW_drillBgColor=, CDZ_VIEW_sortPriority=lowest, CDZ_VIEW_dispMenuHeaders=true, CDZ_VIEW_standardPal=0, CADENZA_ResultSnapToGrid=true, CDZ_VIEW_drillUnderlined=false, CDZ_VIEW_lastUsedColors=, CDZ_VIEW_formulaPal=0, CDZ_VIEW_appFmt=true, CDZ_VIEW_formatPal=1, CDZ_QP_queryPaneH=150, CDZ_VIEW_addTableHeader=true, CDZ_VIEW_drillFgColor=, CDZ_VIEW_drillCustomFmt=false, CDZ_VIEW_reportPal=0, CDZ_VIEW_showSaveOptions=1, CADENZA_ResultGridSpacing=0, CDZ_VIEW_ctxMenu=rclick, CDZ_QP_universeSel=disObj, CADENZA_ResultShowGrid=true, CDZ_VIEW_leftPaneW=270, CDZ_VIEW_leftPaneSel=docinfo, CDZ_VIEW_tdcAutoMode=1, CADENZA_MeasurementUnit=pixels, CDZ_QP_filterPaneH=150, CDZ_QP_universePaneW=250, CDZ_VIEW_showDesc=true}
+SI_LOCALE=1024
+SI_TIMEZONE=0
+desktopsettings=defaultuniv=none&dv5=1&dv4=1&defaultnav=folder&dv2=1&dv1=1&dv0=1&view=0&clientsessionendmode=AskUser&rpp=10

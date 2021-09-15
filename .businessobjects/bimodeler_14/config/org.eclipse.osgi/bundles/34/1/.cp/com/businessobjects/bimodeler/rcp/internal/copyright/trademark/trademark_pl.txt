@@ -1,0 +1,2 @@
+﻿SAP oraz inne produkty i usługi SAP wymienione w niniejszym dokumencie, a także wszelkie oznaczenia słowno-graficzne, w tym logo poszczególnych produktów lub usług, są znakami towarowymi lub zastrzeżonymi znakami towarowymi stanowiącymi wyłączną własnośd SAP SE w Niemczech oraz innych krajach.
+Dodatkowe informacje i powiadomienia dotyczące znaków towarowych można znaleźd na stronie http://www.sap.com/corporate-en/legal/copyright/index.epx#trademark.

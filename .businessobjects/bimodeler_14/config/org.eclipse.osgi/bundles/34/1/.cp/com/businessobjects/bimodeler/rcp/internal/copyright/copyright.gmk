@@ -1,0 +1,15 @@
+ifndef PRODUCT_SHARED_SETUP_COPYRIGHT
+PRODUCT_SHARED_SETUP_COPYRIGHT=true
+
+ifndef SRC_DIR
+  SRC_DIR := $(shell for n in 1 2 3 4 5; do \
+             test -f Build/export/root.gmk && { pwd; break; }; cd ..; done)
+endif
+include $(SRC_DIR)/Build/export/root.gmk
+
+.PHONY: product.shared.setup.copyright
+product.shared.setup.copyright: $(product.shared.setup.copyright_deps)
+	cd $(SRC_DIR)/$(AREA)/setup/copyright; \
+	$(ANT)
+	
+endif

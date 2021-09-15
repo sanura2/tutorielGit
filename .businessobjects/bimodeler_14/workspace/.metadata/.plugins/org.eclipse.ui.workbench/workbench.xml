@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="18" version="2.0">
+<workbenchAdvisor/>
+<window height="617" width="1366" x="0" y="0">
+<fastViewData fastViewLocation="1024"/>
+<intro standby="false"/>
+<perspectiveBar/>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="222" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.businessobjects.bimodeler.concurrentAuthoring.tb.contrib" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.businessobjects.bimodeler.rcp.tb.contrib" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.businessobjects.bimodeler.security.tb.contrib" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.businessobjects.bimodeler.shared.tb.contrib" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Plan de travail - Outil de conception d&apos;information">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views>
+<view id="org.eclipse.ui.internal.introview" partName="Bienvenue">
+<viewState>
+<presentation currentPage="root" restore="true"/>
+<standbyPart/>
+</viewState>
+</view>
+<view id="com.businessobjects.bimodeler.views.repository.local" partName="Projets locaux">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
+<view id="com.businessobjects.bimodeler.views.repository.remote" partName="Ressources du référentiel">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.ui.internal.introview" activePerspective="com.businessobjects.bimodeler.perspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.businessobjects.bimodeler.rcp.Perspective" id="com.businessobjects.bimodeler.perspective" label="Outil de conception d&apos;information"/>
+<alwaysOnActionSet id="com.businessobjects.bimodeler.concurrentAuthoring.tb.contrib"/>
+<alwaysOnActionSet id="com.businessobjects.bimodeler.connection.publishconnection"/>
+<alwaysOnActionSet id="com.businessobjects.bimodeler.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="com.businessobjects.bimodeler.rcp.tb.contrib"/>
+<alwaysOnActionSet id="com.businessobjects.bimodeler.security.tb.contrib"/>
+<alwaysOnActionSet id="com.businessobjects.bimodeler.shared.tb.contrib"/>
+<alwaysOnActionSet id="com.businessobjects.import.xir4"/>
+<alwaysOnActionSet id="com.businessobjects.bimodeler.universe.actionSet1"/>
+<alwaysOnActionSet id="com.businessobjects.bimodeler.universe.actionSet2"/>
+<alwaysOnActionSet id="com.businessobjects.bimodeler.universe.actionSet3"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<new_wizard_action id="com.businessobjects.bimodeler.wizards.staticconnection"/>
+<new_wizard_action id="com.businessobjects.bimodeler.wizards.olapconnection"/>
+<new_wizard_action id="com.businessobjects.bimodeler.wizards.datafoundation"/>
+<new_wizard_action id="com.businessobjects.bimodeler.wizards.project"/>
+<new_wizard_action id="com.businessobjects.bimodeler.wizards.universe"/>
+<view id="com.businessobjects.bimodeler.views.repository.local"/>
+<view id="com.businessobjects.bimodeler.views.repository.remote"/>
+<view id="org.eclipse.ui.internal.introview"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="local.projects.folder">
+<folder activePageID="com.businessobjects.bimodeler.views.repository.local" appearance="2" expanded="2">
+<page content="com.businessobjects.bimodeler.views.repository.local" label="Projets locaux"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@62dd8b" ratio="0.7496274" ratioLeft="1006" ratioRight="336" relationship="2" relative="local.projects.folder">
+<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="1">
+<page content="org.eclipse.ui.internal.introview" label="Bienvenue"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19970194" ratioLeft="268" ratioRight="1074" relationship="2" relative="local.projects.folder"/>
+<info folder="true" part="published.resources.folder" ratio="0.5" ratioLeft="251" ratioRight="251" relationship="4" relative="local.projects.folder">
+<folder activePageID="com.businessobjects.bimodeler.views.repository.remote" appearance="2" expanded="2">
+<page content="com.businessobjects.bimodeler.views.repository.remote" label="Ressources du référentiel"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList/>
+</workbench>

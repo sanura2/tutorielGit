@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<project name="copyright" default="all" basedir=".">	
+	<property environment="env"/>
+	<property name="dir.outbin.copyright" value="${env.OUTBIN_DIR}/product.shared/copyright"/>
+	<property name="dir.copyright.long" value="${dir.outbin.copyright}/long"/>
+	<property name="dir.copyright.short" value="${dir.outbin.copyright}/short"/>
+
+	<!-- copy the long/short copyright and trademark files to out bin directory and update the YEAR values  -->
+	<target name="update-copyright-year">
+		<property name="dir.copyright.trademark" value="${dir.outbin.copyright}/trademark"/>
+		
+		<tstamp>
+			<format property="current.year" pattern="yyyy"/>
+		</tstamp>
+		
+		<copy todir="${dir.copyright.long}">
+			<fileset dir="long">
+				<include name="*.txt"/>
+			</fileset>
+		</copy>
+		
+		<copy todir="${dir.copyright.short}">
+			<fileset dir="short">
+				<include name="*.txt"/>
+			</fileset>
+		</copy>
+		
+		<copy todir="${dir.copyright.trademark}">
+			<fileset dir="trademark">
+				<include name="*.txt"/>
+			</fileset>
+		</copy>
+		
+		<replace dir="${dir.outbin.copyright}" encoding="UTF-8">
+			<include name="**/*.txt"/>
+			<replacefilter token="%YEAR%" value="${current.year}"/>
+		</replace>
+	</target>
+	
+	<!-- copy the copyright text file from export directory to out bin directory and update the copyright lines with the long/short copyright files -->
+	<target name="update-copyright-text-file" depends="update-copyright-year">
+		<!-- only the English file is actually used -->
+		<property name="dir.copyright.text.src" value="${env.SRC_DIR}/product.shared/export/copyright/en"/>
+		<property name="dir.copyright.text.dest" value="${dir.outbin.copyright}/text/en"/>
+		
+		<loadfile srcfile="${dir.copyright.long}/copyright_long_en.txt" property="long.copyright" encoding="UTF-8"/>
+		<loadfile srcfile="${dir.copyright.short}/copyright_short_en.txt" property="short.copyright" encoding="UTF-8"/>
+
+		<copy todir="${dir.copyright.text.dest}" >
+			<fileset dir="${dir.copyright.text.src}">
+				<include name="*.txt"/>
+			</fileset>
+		</copy>
+		
+		<replace dir="${dir.outbin.copyright}/text/en" encoding="UTF-8">
+			<include name="*.txt"/>
+			<replacefilter token="%LONGCOPYRIGHT%" value="${long.copyright}"/>
+			<replacefilter token="%SHORTCOPYRIGHT%" value="${short.copyright}"/>
+		</replace>		
+	</target>
+	
+	<target name="all" depends="update-copyright-text-file" />
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_25" class="java.beans.XMLDecoder">
+ <object class="com.sap.webi.client.toolkit.preferences.beans.BeanObjectWrapper">
+  <void property="className">
+   <string>java.lang.Object</string>
+  </void>
+  <void property="object">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <string></string>
+    </void>
+   </object>
+  </void>
+  <void property="version">
+   <string>Version_1.0</string>
+  </void>
+ </object>
+</java>

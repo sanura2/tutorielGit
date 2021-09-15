@@ -1,0 +1,3 @@
+﻿SAP 和本文提及的其它 SAP 产品和服务及其各自标识均为 SAP 股份公司在德国和其他国家的商标或注册商标。
+
+如欲了解更多商标信息和声明，请访问： http://www.sap.com/corporate-en/legal/copyright/index.epx#trademark。
